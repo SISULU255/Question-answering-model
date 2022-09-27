@@ -1,3 +1,5 @@
+import os
+os.system("pip install git+https://github.com/explosion/spacy-transformers")
 from allennlp.predictors.predictor import Predictor
 import allennlp_models.rc
 import streamlit as st
