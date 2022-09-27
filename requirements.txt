@@ -3,3 +3,4 @@ typer==0.4.0
 allennlp==2.1.0 
 allennlp-models==2.1.0
 streamlit
+spacy-transformers
