@@ -14,8 +14,6 @@ predictions = predictor.predict_json({
       "starring Keanu Reeves, Laurence Fishburne, "
       "Carrie-Anne Moss, Hugo Weaving, and Joe P"
       "antoliano.",
-  "question":
-      st.input("")
-      
+  "question":st.text_input('Question', 'what is matrix')
 })
 st.write(predictions["best_span_str"])
