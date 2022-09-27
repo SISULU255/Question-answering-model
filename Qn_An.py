@@ -1,7 +1,3 @@
-!pip install allennlp==2.1.0 allennlp-models==2.1.0
-!pip install git+https://github.com/explosion/spacy-transformers
-!pip install gradio
-!pip install streamlit
 from allennlp.predictors.predictor import Predictor
 import allennlp_models.rc
 import streamlit as st
