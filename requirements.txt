@@ -2,3 +2,4 @@ allennlp==2.1.0
 allennlp-models==2.1.0
 streamlit
 spacy-transformers
+click<8
