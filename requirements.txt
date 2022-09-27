@@ -1,5 +1,5 @@
-typer==0.4.0
-click==8.0
+-typer==0.4.0
++click<8
 allennlp==2.1.0 
 allennlp-models==2.1.0
 streamlit
