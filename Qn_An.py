@@ -1,5 +1,6 @@
 import os
-os.system("pip install allennlp==2.1.0 allennlp-models==2.1.0")
+#os.system("pip install allennlp==2.1.0 allennlp-models==2.1.0")
+#os.system ("pip install git+https://github.com/explosion/spacy-transformers")
 os.system("pip install git+https://github.com/explosion/spacy-transformers")
 #import allennlp
 from allennlp.predictors.predictor import Predictor
