@@ -21,7 +21,10 @@ predictions = predictor.predict_json({
       "film written and directed by The Wachowskis, "
       "starring Keanu Reeves, Laurence Fishburne, "
       "Carrie-Anne Moss, Hugo Weaving, and Joe P"
-      "antoliano.",
-  "question":st.text_input('Question', 'what is matrix')
+      "antoliano."
+      "KIITEC is a technical institution registered by"
+      "NACTE (REG/EOS/027) based in Moshono,"
+      "Arusha next to Masai Camp",
+  "question":st.text_input('Question', 'what is Kiitec')
 })
 st.write(predictions["best_span_str"])
