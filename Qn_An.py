@@ -8,9 +8,9 @@ import allennlp_models.rc
 import streamlit as st
 from PIL import Image
 image = Image.open('kiitec logo.png')
-html = "<img src= "kiitec logo.png" >"
-css = "img{diplay:relative,left:350}"
-st.image(html,  width=None)
+#html = "<img src= "kiitec logo.png" >"
+#css = "img{diplay:relative,left:350}"
+st.image(image,  width=None)
 checkpoint = "https://storage.googleapis.com/allennlp-public-models/bidaf-elmo.2021-02-11.tar.gz"
 #checkpoint = "hf://lysandre/bidaf-elmo-model-2020.03.19"
 st.title('''KIITEC VIRTUAL ASSISTANT''')
