@@ -8,7 +8,7 @@ import allennlp_models.rc
 import streamlit as st
 checkpoint = "https://storage.googleapis.com/allennlp-public-models/bidaf-elmo.2021-02-11.tar.gz"
 #checkpoint = "hf://lysandre/bidaf-elmo-model-2020.03.19"
-st.title('''Kiitec Virtual Assistance''')
+st.title('''KIITEC VIRTUAL ASSISTANT''')
 predictor = Predictor.from_path(checkpoint)
 predictions = predictor.predict_json({
   "passage":
