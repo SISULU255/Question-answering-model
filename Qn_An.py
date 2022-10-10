@@ -12,6 +12,7 @@ image = Image.open('kiitec logo.png')
 #css = "img{diplay:relative,left:350}"
 st.image(image,  width=None)
 st.title('''KIITEC VIRTUAL ASSISTANT''')
+st.head('Sorry am still learning')
 checkpoint = "https://storage.googleapis.com/allennlp-public-models/bidaf-elmo.2021-02-11.tar.gz"
 #checkpoint = "hf://lysandre/bidaf-elmo-model-2020.03.19"
 predictor = Predictor.from_path(checkpoint)
