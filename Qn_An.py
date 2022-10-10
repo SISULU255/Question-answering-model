@@ -23,7 +23,7 @@ predictions = predictor.predict_json({
       #"starring Keanu Reeves, Laurence Fishburne, "
       #"Carrie-Anne Moss, Hugo Weaving, and Joe P"
       #"antoliano.\n"
-      "KIITEC is a technical institution registered by"
+      "KIITEC is a technical institution registered by "
       "NACTE (REG/EOS/027) based in Moshono,"
       "Arusha next to Masai Camp.\n"
       "Fee structure and Mode of Payment for Diploma Programmes,"
