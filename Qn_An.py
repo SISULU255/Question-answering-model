@@ -74,8 +74,7 @@ predictions = predictor.predict_json({
 #Kiitec has values: Hard-work and excellence ,Honesty ,Respect ,Responsibility ,Lifelong learning ,Innovation and creativity.
         "For contact info of kiitec Phone: +255 27 250 4384, "
         "Mobile: +255 757 845 118 , "
-        "Email: info@kiitec.ac.tz P.O.Box 3172 Arusha, Tanzania. "
-  "question": 
-        st.text_input('Question', 'what is Kiitec')
+        "Email: info@kiitec.ac.tz P.O.Box 3172 Arusha, Tanzania. ",
+  "question":st.text_input('Question', 'what is Kiitec')
 })
 st.write(predictions["best_span_str"])
